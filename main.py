@@ -1,7 +1,7 @@
 def incircle(x,y) :
   # Your code goes here
-  
-  return 
+  if x*x + y*y < 1 : return 1 
+  return 0
 
 npoints = 100
 gridspacing = 1.0/npoints
